@@ -3,6 +3,5 @@ sudo docker network prune
 sudo docker volume prune
 cd fixtures && docker-compose up -d
 cd ..
-rm FabricEduction
-go build
+go build -o FabricEduction
 ./FabricEduction
