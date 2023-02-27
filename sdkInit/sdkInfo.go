@@ -1,6 +1,8 @@
 package sdkInit
 
 import (
+	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
 	mspclient "github.com/hyperledger/fabric-sdk-go/pkg/client/msp"
 	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
 	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
